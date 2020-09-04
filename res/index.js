@@ -1,12 +1,12 @@
 const { ipcRenderer } = require('electron');
 
 
-var remainingTime; // 20 mins
+var remainingTime; 
 var focusMode;
 var actionBtns;
 
-const focusTime = 1*10;
-const relaxTime = 5;
+const focusTime = 20*60; // 20 mins
+const relaxTime = 20; // 20 seconds
 
 var pause;
 
