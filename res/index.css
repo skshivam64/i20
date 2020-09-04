@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#counter{
+    width: 180px; 
+    height: 50px; 
+    margin: 5px; 
+    margin-bottom: 0; 
+    background: #ededed; 
+    text-align: center; 
+    line-height: 50px; 
+    font-weight: bold;
+}
+#btns-container{
+    width: 180px;
+    padding: 5px;
+}
+.act-btn{
+    border: none;
+    width: 88px;
+    padding: 7px 17px;
+    color: #ededed;
+    background: #2979FF;
+}
+.danger{
+    background: #ff2986;
+}
+.success{
+    background: #34e24e;
+}

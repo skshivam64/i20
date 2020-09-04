@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>i20</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel = "stylesheet" href = "index.css"/>
+    <script type = "text/javascript" src = "index.js"></script>
+  </head>
+  <body onload="init();">
+    <div class="container">
+        <div id="counter">20:00</div>
+        <div id="btns-container">
+            <button class = "act-btn danger">Pause</button>
+            <button class = "act-btn">Restart</button>
+        </div>
+    </div>
+  </body>
+</html>
+
